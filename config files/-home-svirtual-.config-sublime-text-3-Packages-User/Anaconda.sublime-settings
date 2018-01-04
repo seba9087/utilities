@@ -1,0 +1,33 @@
+{
+    "python_interpreter": "//usr/bin/python3.5",//home/svirtual/Projects/Environments/maindev/bin/python",
+    //"auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
+    "complete_parameters": true,
+    "auto_formatting": true,
+    "anaconda_linter_phantoms": true,
+    "anaconda_linting": true,
+    "auto_complete": true,
+    "word_wrap": true,
+    "anaconda_linting_behaviour": "always",
+    "pep257": false,
+    "test_command": "python3.5 -m unittest discover",
+    "use_pylint": true,
+    "validate_imports": true,
+    "autoformat_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    "pep8_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    "anaconda_linter_underlines": true,
+    "anaconda_linter_mark_style": "none",
+    "display_signatures": false,
+}
+/*
+{
+
+    "disable_anaconda_completion": true
+}*/

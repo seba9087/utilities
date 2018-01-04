@@ -1,0 +1,14 @@
+git ls-tree --full-tree -r //HEAD lists all of the already committed files being tracked by your git repo
+
+git branch -d the_local_branch //To delete a local branch
+
+git push origin :the_remote_branch //To remove a remote branch (if you know what you are doing!)
+
+git push origin --delete the_remote_branch //To remove a remote branch with the new syntax (v1.7.0)
+
+git fetch --all //To fetch all repositories heads from remote
+
+git pull --all //to pull al branches from remote
+
+git checkout //to checkout to a pulled branch, not necesary local
+

@@ -12,3 +12,4 @@ git pull --all //to pull al branches from remote
 
 git checkout //to checkout to a pulled branch, not necesary local
 
+git config --get remote.origin.url //check origin url asociated with repository
